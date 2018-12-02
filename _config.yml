@@ -4,7 +4,7 @@ title: Blog
 description: Personal Blog
 
 email: koko@rhyndo.com
-baseurl: "/blog" #  /blog the subpath of your site, e.g. /blog
+baseurl: "/Blog" #  /blog the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 future: true
