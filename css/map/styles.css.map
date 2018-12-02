@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,K,CACI,Y,CACA,W,CACA,qB,CACA,e,CACA,U","file":"../styles.css","sourcesContent":[".test{\r\n    height: 10rem;\r\n    width: 10rem;\r\n    border:1px solid black;\r\n    background: black;\r\n    color: white;\r\n}"]}
