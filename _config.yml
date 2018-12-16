@@ -1,7 +1,6 @@
 # Site settings
 
-title: Blog
-description: Personal Blog
+title: Hotel Montmartre
 
 email: koko@rhyndo.com
 baseurl: "/Blog" #  /blog the subpath of your site, e.g. /blog

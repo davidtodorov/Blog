@@ -1,7 +1,5 @@
-.test{
-    height: 10rem;
-    width: 10rem;
-    border:1px solid black;
-    background: black;
-    color: white;
-}
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Trirong:300,400,700');
+
+@import 'reset';
+@import 'navigation'
