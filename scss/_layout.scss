@@ -1,0 +1,18 @@
+.site{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.wrapper{
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main, footer{
+    width:100%;
+}

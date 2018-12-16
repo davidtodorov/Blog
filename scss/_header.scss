@@ -1,19 +1,22 @@
 .site-header{
-    height:4rem;
-}
+    // height:3rem;  maybe insert a variable (same size as the logo)
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+ }
 
 .site-branding{
     height: 100%;
     display: flex;
     align-items: center;
-}
-
-.site-branding img{
-    height:100%;
-}
-
-.site-branding p{
+        & img{
+            height:2.65rem;
+        }
+        & p{
     font-size:1.5rem;
     font-family: 'Trirong';
     font-weight: 500;
+    color: #333;
+    }
 }
