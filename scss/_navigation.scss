@@ -2,8 +2,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: none; //rgba(#c59f36, 0.9);
+	background: #fefefe;
 
+	@include mq(tablet-wide, max){
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(195, 154, 44, 0.9);	
+	}
+	
 	& ul {
 	padding: 0;
 	margin: 0;
@@ -12,17 +22,27 @@
 	& li {
 		display: inline-block;
 		list-style: none outside;
+
+		@include mq(tablet-wide, max){
+			display:block;
+		}
 	}
 
 	& a {
 	display: block;
 	font-family: 'Trirong';
 	margin: 0em 2rem;
-	background: #FFF;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #333;
-	//box-shadow: 0 0 1.5rem 0.1rem rgba(0,0,0,0.1);
+	background: #fefefe;
+
+		@include mq(tablet-wide, max){
+			margin: 1rem 0rem;
+			box-shadow: 0 0 1.5rem 0.1rem rgba(0,0,0,0.1);
+			padding: 1rem 2rem;
+
+		}
 	}
 }
 
@@ -33,8 +53,6 @@
 #nav-main-toggle {
 	display: none;
 }
-
-
 
 .nav-toggle {
 	top: var(--spacing-site, 1rem);
@@ -53,13 +71,15 @@
 	}
 }
 
-// #nav-toggle-left {
-// }
-
 #nav-toggle-right {
+	color: #333;
 	display: none;
 	left: inherit;
 	right: var(--spacing-site, 2rem);
+
+	@include mq(tablet-wide, max){
+		display: inline-block;
+	}
 }
 
 #nav-main-toggle:checked + .site-header .navigation {
